@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   width: 200,
                   child: TextField(
+                    obscureText:true,
                     decoration: InputDecoration(
                       hintText: 'Enter your password',
                     ),
